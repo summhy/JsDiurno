@@ -10,8 +10,11 @@ curso.estudiantes.forEach(element => {
                             <td>${estudiante.nombre}</td>
                             <td>${estudiante.apellido}</td>
                             <td>${estudiante.nombrar()}</td>
-                            <td>${estudiante.edad}</td>
+                            <td>${estudiante.getEdad()}</td>
                             <td>${estudiante.nacimiento}</td>
                             <td>${estudiante.hobbies}</td>
+                            <td>${estudiante.buscarHobbie('Leer')}</td>
+                            <td>${estudiante.buscarHobbie('Pelear')}</td>
+                            <td>${estudiante.buscarHobbie('Caminar')}</td>
                        </tr> `;
 }); 
