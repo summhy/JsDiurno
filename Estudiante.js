@@ -5,8 +5,9 @@ function Estudiante(nombre, apellido){
     this.hobbies;
     this.nacimiento;
 
-    nombrar = ()=>{
-        return `${nombre} ${apellido}`;
+    this.nombrar = ()=>{
+        return `El nombre del estudiante es ${this.nombre} ${this.apellido}`;
+       
     }
 
 
